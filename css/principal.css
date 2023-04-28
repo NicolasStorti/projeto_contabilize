@@ -5,11 +5,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .banner-content {
+}
+
+.banner-content {
     text-align: center;
     color: white;
     width: 100%;
-  }
-  
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #f00;
+    text-decoration: none;
+}
+
+.termos {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.termos:hover {
+    color: #f00;
+    text-decoration: none;
+}
